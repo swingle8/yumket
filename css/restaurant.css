@@ -1,0 +1,103 @@
+.image-button
+{
+    padding: 5px;
+    margin: 0px;
+    border:  none;
+    color: #6666ff;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: arial, helvetica, sans-serif;
+    vertical-align: middle;
+    cursor: pointer;
+}        
+        
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.8s ease-out; 
+  -moz-transition: all 0.8s ease-out; 
+  -o-transition: all 0.8s ease-out; 
+  transition: all 0.8s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}        
+        
+#fadeout-div {
+ height:100%;
+ width:100%;
+ background-color: salmon;
+ position:absolute;
+ top:0;
+ left:0;
+ z-index:-1
+}
+
+#error-msg {
+ height:50px;
+ width:335px;
+ color: black;
+ padding:1px 8px;
+ background-color: #e6e6e6;
+ position:relative;
+ z-index:1;
+}        
+
+.restraurantmaintable tr:hover td{ background-color: #e6e6e6 };        
+        
+.offerheading td { position:relative; top:0; left:0; }
+.offerdetail { display:none; position:absolute; top:240px; background: green; color: white; -webkit-border-radius: 10px ; -moz-border-radius: 10px ; width: 350px; height: auto; 
+   border-radius: 10px;-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); }
+
+#sticker ul { list-style-type: none; }
+#sticker li { margin: 5px; padding: 5px; width: 100px; text-align: center; }
+#sticker li.selected { background: #04c; }
+#sticker a { text-decoration: none; } 
+
+.sticker2{
+    background-image: -moz-linear-gradient(top, #e6e6e6, #ffc);
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #ffc);
+    margin: 0 0 0 0px;
+    top: 0;
+    overflow:hidden;
+} 
+ 
+.sticker{
+    background-image: -moz-linear-gradient(top, #e6e6e6, #e6e6e6);
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #e6e6e6);
+    margin: 0 0 0 0px;
+    top: 60px;
+    overflow: hidden;
+   
+} 
+.sticker1{
+    background-image: -moz-linear-gradient(top, #e6e6e6, #e6e6e6);
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #e6e6e6);
+    margin: 0 0 0 450px;
+    top: 60px;
+    overflow:hidden;
+} 
+        
+    .fixedElement {
+    background-color: #c0c0c0;
+    position:fixed;
+    width:100%;
+    z-index:100;
+}       
+        
